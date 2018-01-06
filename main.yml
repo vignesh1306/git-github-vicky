@@ -1,2 +1,7 @@
-----
-- host:192.168.0
+---
+- hosts: 54.236.4.23
+  tasks:
+   - name: hello
+     copy: src=/etc/ansible/main.yml
+           dest=/home/vignesh/
+       
